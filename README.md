@@ -32,3 +32,30 @@ Uso
 Acesse a API em http://localhost:3000.
 Contribuição
 Sinta-se à vontade para abrir issues e enviar pull requests.
+
+Configuração do Ambiente de Hospedagem no GitHub
+Criar Repositório no GitHub:
+
+Acesse o GitHub e crie um novo repositório.
+Clone o repositório para o seu ambiente local:
+git clone <URL_DO_REPOSITORIO>
+cd <NOME_DO_REPOSITORIO>
+
+Adicionar Projeto ao Repositório:
+
+Copie os arquivos do projeto para o diretório do repositório.
+Adicione, comite e envie os arquivos para o GitHub:
+git add .
+git commit -m "Initial commit"
+git push origin main
+
+4. Configuração de Hospedagem na Nuvem
+Escolher um Provedor de Nuvem: AWS, Azure, Google Cloud, etc.
+Configurar o Servidor:
+Criar uma instância de servidor.
+Instalar Node.js e MongoDB na instância.
+Clonar o repositório do GitHub na instância.
+Configurar variáveis de ambiente e iniciar o servidor.
+
+
+
